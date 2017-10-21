@@ -115,6 +115,20 @@ githubClient.getRepo(user: "foo", repo: "bar")
   )
 ```
 
+### Model
+The library uses [JSONDecoder](https://developer.apple.com/documentation/foundation/jsondecoder) to deserialize JSON to model object, so the model should conform to [Decodable](https://developer.apple.com/documentation/swift/decodable) or [Codable](https://developer.apple.com/documentation/swift/codable)
+```swift
+struct User: Decodable {
+  let name: String
+  let profileUrl: URL
+  // if the serialized name is different from the property name
+  private enum CodingKeys: String, CodingKey {
+    case name = "login"
+    case profileUrl = "avatar_url"
+  }
+}
+```
+
 ## <a name=unwrap_keypath>Unwrap Response by KeyPath</a>
 Sometimes the api response includes metadata that we don't need, but in order to map the response we create a wrapper class and make the function return that wrapper class.
 This approach leaks the implementation of service to calling code.
