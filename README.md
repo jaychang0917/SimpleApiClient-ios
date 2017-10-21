@@ -7,6 +7,10 @@
 
 A configurable api client based on Alamofire4 and RxSwift4 for iOS
 
+## Requirements
+* iOS 8.0+
+* Swift 4
+
 ## Table of Contents
 * [Basic Usage](#basic_usage)
 * [Unwrap Response by KeyPath](#unwrap_keypath)
