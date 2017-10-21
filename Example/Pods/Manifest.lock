@@ -1,0 +1,22 @@
+PODS:
+  - Alamofire (4.5.1)
+  - RxSwift (4.0.0)
+  - SimpleApiClient (0.1.0):
+    - Alamofire (~> 4.5)
+    - RxSwift (~> 4.0)
+
+DEPENDENCIES:
+  - SimpleApiClient (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleApiClient:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
+  RxSwift: fd680d75283beb5e2559486f3c0ff852f0d35334
+  SimpleApiClient: abed262807ae4d81c1a3d76493186a71d6761693
+
+PODFILE CHECKSUM: 72a7a911b61b42e678ba8d33e7e1a2ca102cdb41
+
+COCOAPODS: 1.3.1

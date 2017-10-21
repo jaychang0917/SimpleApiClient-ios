@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleApiClient_Example' do
+  pod 'SimpleApiClient', :path => '../'
+
+  target 'SimpleApiClient_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

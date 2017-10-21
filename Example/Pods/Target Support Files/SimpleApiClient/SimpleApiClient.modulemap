@@ -1,0 +1,6 @@
+framework module SimpleApiClient {
+  umbrella header "SimpleApiClient-umbrella.h"
+
+  export *
+  module * { export * }
+}

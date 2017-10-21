@@ -1,0 +1,46 @@
+{
+  "total_count": 34210,
+  "incomplete_results": false,
+  "items": [
+    {
+    "login": "sample_user",
+    "id": 965580,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/965580?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jay",
+    "html_url": "https://github.com/jay",
+    "followers_url": "https://api.github.com/users/jay/followers",
+    "following_url": "https://api.github.com/users/jay/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jay/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jay/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jay/subscriptions",
+    "organizations_url": "https://api.github.com/users/jay/orgs",
+    "repos_url": "https://api.github.com/users/jay/repos",
+    "events_url": "https://api.github.com/users/jay/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jay/received_events",
+    "type": "User",
+    "site_admin": false,
+    "score": 86.388336
+    },
+    {
+    "login": "jayschwa",
+    "id": 475017,
+    "avatar_url": "https://avatars1.githubusercontent.com/u/475017?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jayschwa",
+    "html_url": "https://github.com/jayschwa",
+    "followers_url": "https://api.github.com/users/jayschwa/followers",
+    "following_url": "https://api.github.com/users/jayschwa/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jayschwa/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jayschwa/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jayschwa/subscriptions",
+    "organizations_url": "https://api.github.com/users/jayschwa/orgs",
+    "repos_url": "https://api.github.com/users/jayschwa/repos",
+    "events_url": "https://api.github.com/users/jayschwa/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jayschwa/received_events",
+    "type": "User",
+    "site_admin": false,
+    "score": 40.0574
+    }
+  ]
+}
