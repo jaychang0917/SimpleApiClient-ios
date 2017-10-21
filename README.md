@@ -1,5 +1,6 @@
 # SimpleApiClient
 
+[![Swift](https://img.shields.io/badge/Swift-4.0-orange.svg?style=flat)](https://developer.apple.com/swift/)
 [![CI Status](http://img.shields.io/travis/jaychang0917/SimpleApiClient.svg?style=flat)](https://travis-ci.org/jaychang0917/SimpleApiClient)
 [![Version](https://img.shields.io/cocoapods/v/SimpleApiClient.svg?style=flat)](http://cocoapods.org/pods/SimpleApiClient)
 [![License](https://img.shields.io/cocoapods/l/SimpleApiClient.svg?style=flat)](http://cocoapods.org/pods/SimpleApiClient)
